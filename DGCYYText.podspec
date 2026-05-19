@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage     = 'https://github.com/ibireme/DGCYYText'
   s.platform     = :ios, '9.0'
   s.ios.deployment_target = '9.0'
-  s.source       = { :git => 'https://github.com/MuShare/DGCYYText.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/wangweiqi864-hue/DGCYYText.git', :tag => s.version.to_s }
   
   s.requires_arc = true
   s.source_files = 'DGCYYText/**/*.{h,m}'
