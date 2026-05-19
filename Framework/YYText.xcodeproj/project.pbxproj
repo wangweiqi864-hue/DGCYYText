@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D995E6BA1F372EC800EBEE44 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D918BFE71F372EA000106E14 /* MobileCoreServices.framework */; };
+		D995E6BB1F372EC800EBEE44 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D918BFE61F372E9B00106E14 /* Accelerate.framework */; };
+		D995E6BC1F372EC800EBEE44 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D918BFE51F372E9800106E14 /* CoreText.framework */; };
+		D995E6BD1F372EC800EBEE44 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D918BFE41F372E7A00106E14 /* QuartzCore.framework */; };
+		D995E6BE1F372EC800EBEE44 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D918BFE31F372E7600106E14 /* UIKit.framework */; };
+		D995E6BF1F372EC800EBEE44 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D918BFE21F372E6800106E14 /* CoreFoundation.framework */; };
+		D995E6F51F372ED100EBEE44 /* DGCYYTextContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = D995E6C21F372ED100EBEE44 /* DGCYYTextContainerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D995E6F61F372ED100EBEE44 /* DGCYYTextContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D995E6C31F372ED100EBEE44 /* DGCYYTextContainerView.m */; };
+		D995E6F71F372ED100EBEE44 /* DGCYYTextDebugOption.h in Headers */ = {isa = PBXBuildFile; fileRef = D995E6C41F372ED100EBEE44 /* DGCYYTextDebugOption.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D995E6F81F372ED100EBEE44 /* DGCYYTextDebugOption.m in Sources */ = {isa = PBXBuildFile; fileRef = D995E6C51F372ED100EBEE44 /* DGCYYTextDebugOption.m */; };
+		D995E6F91F372ED100EBEE44 /* DGCYYTextEffectWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = D995E6C61F372ED100EBEE44 /* DGCYYTextEffectWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D995E6FA1F372ED100EBEE44 /* DGCYYTextEffectWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = D995E6C71F372ED100EBEE44 /* DGCYYTextEffectWindow.m */; };
+		D995E6FB1F372ED100EBEE44 /* DGCYYTextInput.h in Headers */ = {isa = PBXBuildFile; fileRef = D995E6C81F372ED100EBEE44 /* DGCYYTextInput.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D995E6FC1F372ED100EBEE44 /* DGCYYTextInput.m in Sources */ = {isa = PBXBuildFile; fileRef = D995E6C91F372ED100EBEE44 /* DGCYYTextInput.m */; };
+		D995E6FD1F372ED100EBEE44 /* DGCYYTextKeyboardManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D995E6CA1F372ED100EBEE44 /* DGCYYTextKeyboardManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D995E6FE1F372ED100EBEE44 /* DGCYYTextKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D995E6CB1F372ED100EBEE44 /* DGCYYTextKeyboardManager.m */; };
+		D995E6FF1F372ED100EBEE44 /* DGCYYTextLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = D995E6CC1F372ED100EBEE44 /* DGCYYTextLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D995E7001F372ED100EBEE44 /* DGCYYTextLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D995E6CD1F372ED100EBEE44 /* DGCYYTextLayout.m */; };
+		D995E7011F372ED100EBEE44 /* DGCYYTextLine.h in Headers */ = {isa = PBXBuildFile; fileRef = D995E6CE1F372ED100EBEE44 /* DGCYYTextLine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D995E7021F372ED100EBEE44 /* DGCYYTextLine.m in Sources */ = {isa = PBXBuildFile; fileRef = D995E6CF1F372ED100EBEE44 /* DGCYYTextLine.m */; };
+		D995E7031F372ED100EBEE44 /* DGCYYTextMagnifier.h in Headers */ = {isa = PBXBuildFile; fileRef = D995E6D01F372ED100EBEE44 /* DGCYYTextMagnifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D995E7041F372ED100EBEE44 /* DGCYYTextMagnifier.m in Sources */ = {isa = PBXBuildFile; fileRef = D995E6D11F372ED100EBEE44 /* DGCYYTextMagnifier.m */; };
+		D995E7051F372ED100EBEE44 /* DGCYYTextSelectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = D995E6D21F372ED100EBEE44 /* DGCYYTextSelectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D995E7061F372ED100EBEE44 /* DGCYYTextSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = D995E6D31F372ED100EBEE44 /* DGCYYTextSelectionView.m */; };
+		D995E7071F372ED100EBEE44 /* DGCYYTextArchiver.h in Headers */ = {isa = PBXBuildFile; fileRef = D995E6D51F372ED100EBEE44 /* DGCYYTextArchiver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D995E7081F372ED100EBEE44 /* DGCYYTextArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = D995E6D61F372ED100EBEE44 /* DGCYYTextArchiver.m */; };
+		D995E7091F372ED100EBEE44 /* DGCYYTextAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = D995E6D71F372ED100EBEE44 /* DGCYYTextAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D995E70A1F372ED100EBEE44 /* DGCYYTextAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = D995E6D81F372ED100EBEE44 /* DGCYYTextAttribute.m */; };
+		D995E70B1F372ED100EBEE44 /* DGCYYTextParser.h in Headers */ = {isa = PBXBuildFile; fileRef = D995E6D91F372ED100EBEE44 /* DGCYYTextParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D995E70C1F372ED100EBEE44 /* DGCYYTextParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D995E6DA1F372ED100EBEE44 /* DGCYYTextParser.m */; };
+		D995E70D1F372ED100EBEE44 /* DGCYYTextRubyAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = D995E6DB1F372ED100EBEE44 /* DGCYYTextRubyAnnotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D995E70E1F372ED100EBEE44 /* DGCYYTextRubyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = D995E6DC1F372ED100EBEE44 /* DGCYYTextRubyAnnotation.m */; };
+		D995E70F1F372ED100EBEE44 /* DGCYYTextRunDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = D995E6DD1F372ED100EBEE44 /* DGCYYTextRunDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D995E7101F372ED100EBEE44 /* DGCYYTextRunDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D995E6DE1F372ED100EBEE44 /* DGCYYTextRunDelegate.m */; };
+		D995E7111F372ED100EBEE44 /* NSAttributedString+DGCYYText.h in Headers */ = {isa = PBXBuildFile; fileRef = D995E6E01F372ED100EBEE44 /* NSAttributedString+DGCYYText.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D995E7121F372ED100EBEE44 /* NSAttributedString+DGCYYText.m in Sources */ = {isa = PBXBuildFile; fileRef = D995E6E11F372ED100EBEE44 /* NSAttributedString+DGCYYText.m */; };
+		D995E7131F372ED100EBEE44 /* NSParagraphStyle+DGCYYText.h in Headers */ = {isa = PBXBuildFile; fileRef = D995E6E21F372ED100EBEE44 /* NSParagraphStyle+DGCYYText.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D995E7141F372ED100EBEE44 /* NSParagraphStyle+DGCYYText.m in Sources */ = {isa = PBXBuildFile; fileRef = D995E6E31F372ED100EBEE44 /* NSParagraphStyle+DGCYYText.m */; };
+		D995E7151F372ED100EBEE44 /* UIPasteboard+DGCYYText.h in Headers */ = {isa = PBXBuildFile; fileRef = D995E6E41F372ED100EBEE44 /* UIPasteboard+DGCYYText.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D995E7161F372ED100EBEE44 /* UIPasteboard+DGCYYText.m in Sources */ = {isa = PBXBuildFile; fileRef = D995E6E51F372ED100EBEE44 /* UIPasteboard+DGCYYText.m */; };
+		D995E7171F372ED100EBEE44 /* UIView+DGCYYText.h in Headers */ = {isa = PBXBuildFile; fileRef = D995E6E61F372ED100EBEE44 /* UIView+DGCYYText.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D995E7181F372ED100EBEE44 /* UIView+DGCYYText.m in Sources */ = {isa = PBXBuildFile; fileRef = D995E6E71F372ED100EBEE44 /* UIView+DGCYYText.m */; };
+		D995E7191F372ED100EBEE44 /* DGCYYTextAsyncLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = D995E6E81F372ED100EBEE44 /* DGCYYTextAsyncLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D995E71A1F372ED100EBEE44 /* DGCYYTextAsyncLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D995E6E91F372ED100EBEE44 /* DGCYYTextAsyncLayer.m */; };
+		D995E71B1F372ED100EBEE44 /* DGCYYTextTransaction.h in Headers */ = {isa = PBXBuildFile; fileRef = D995E6EA1F372ED100EBEE44 /* DGCYYTextTransaction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D995E71C1F372ED100EBEE44 /* DGCYYTextTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = D995E6EB1F372ED100EBEE44 /* DGCYYTextTransaction.m */; };
+		D995E71D1F372ED100EBEE44 /* DGCYYTextUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = D995E6EC1F372ED100EBEE44 /* DGCYYTextUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D995E71E1F372ED100EBEE44 /* DGCYYTextUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D995E6ED1F372ED100EBEE44 /* DGCYYTextUtilities.m */; };
+		D995E71F1F372ED100EBEE44 /* DGCYYTextWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = D995E6EE1F372ED100EBEE44 /* DGCYYTextWeakProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D995E7201F372ED100EBEE44 /* DGCYYTextWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = D995E6EF1F372ED100EBEE44 /* DGCYYTextWeakProxy.m */; };
+		D995E7211F372ED100EBEE44 /* DGCYYLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = D995E6F01F372ED100EBEE44 /* DGCYYLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D995E7221F372ED100EBEE44 /* DGCYYLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D995E6F11F372ED100EBEE44 /* DGCYYLabel.m */; };
+		D995E7231F372ED100EBEE44 /* DGCYYText.h in Headers */ = {isa = PBXBuildFile; fileRef = D995E6F21F372ED100EBEE44 /* DGCYYText.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D995E7241F372ED100EBEE44 /* DGCYYTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = D995E6F31F372ED100EBEE44 /* DGCYYTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D995E7251F372ED100EBEE44 /* DGCYYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D995E6F41F372ED100EBEE44 /* DGCYYTextView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D918BFD61F372E3000106E14 /* DGCYYText.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DGCYYText.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D918BFDA1F372E3000106E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D918BFE21F372E6800106E14 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		D918BFE31F372E7600106E14 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D918BFE41F372E7A00106E14 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D918BFE51F372E9800106E14 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		D918BFE61F372E9B00106E14 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		D918BFE71F372EA000106E14 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		D995E6C21F372ED100EBEE44 /* DGCYYTextContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGCYYTextContainerView.h; sourceTree = "<group>"; };
+		D995E6C31F372ED100EBEE44 /* DGCYYTextContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGCYYTextContainerView.m; sourceTree = "<group>"; };
+		D995E6C41F372ED100EBEE44 /* DGCYYTextDebugOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGCYYTextDebugOption.h; sourceTree = "<group>"; };
+		D995E6C51F372ED100EBEE44 /* DGCYYTextDebugOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGCYYTextDebugOption.m; sourceTree = "<group>"; };
+		D995E6C61F372ED100EBEE44 /* DGCYYTextEffectWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGCYYTextEffectWindow.h; sourceTree = "<group>"; };
+		D995E6C71F372ED100EBEE44 /* DGCYYTextEffectWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGCYYTextEffectWindow.m; sourceTree = "<group>"; };
+		D995E6C81F372ED100EBEE44 /* DGCYYTextInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGCYYTextInput.h; sourceTree = "<group>"; };
+		D995E6C91F372ED100EBEE44 /* DGCYYTextInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGCYYTextInput.m; sourceTree = "<group>"; };
+		D995E6CA1F372ED100EBEE44 /* DGCYYTextKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGCYYTextKeyboardManager.h; sourceTree = "<group>"; };
+		D995E6CB1F372ED100EBEE44 /* DGCYYTextKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGCYYTextKeyboardManager.m; sourceTree = "<group>"; };
+		D995E6CC1F372ED100EBEE44 /* DGCYYTextLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGCYYTextLayout.h; sourceTree = "<group>"; };
+		D995E6CD1F372ED100EBEE44 /* DGCYYTextLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGCYYTextLayout.m; sourceTree = "<group>"; };
+		D995E6CE1F372ED100EBEE44 /* DGCYYTextLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGCYYTextLine.h; sourceTree = "<group>"; };
+		D995E6CF1F372ED100EBEE44 /* DGCYYTextLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGCYYTextLine.m; sourceTree = "<group>"; };
+		D995E6D01F372ED100EBEE44 /* DGCYYTextMagnifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGCYYTextMagnifier.h; sourceTree = "<group>"; };
+		D995E6D11F372ED100EBEE44 /* DGCYYTextMagnifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGCYYTextMagnifier.m; sourceTree = "<group>"; };
+		D995E6D21F372ED100EBEE44 /* DGCYYTextSelectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGCYYTextSelectionView.h; sourceTree = "<group>"; };
+		D995E6D31F372ED100EBEE44 /* DGCYYTextSelectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGCYYTextSelectionView.m; sourceTree = "<group>"; };
+		D995E6D51F372ED100EBEE44 /* DGCYYTextArchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGCYYTextArchiver.h; sourceTree = "<group>"; };
+		D995E6D61F372ED100EBEE44 /* DGCYYTextArchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGCYYTextArchiver.m; sourceTree = "<group>"; };
+		D995E6D71F372ED100EBEE44 /* DGCYYTextAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGCYYTextAttribute.h; sourceTree = "<group>"; };
+		D995E6D81F372ED100EBEE44 /* DGCYYTextAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGCYYTextAttribute.m; sourceTree = "<group>"; };
+		D995E6D91F372ED100EBEE44 /* DGCYYTextParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGCYYTextParser.h; sourceTree = "<group>"; };
+		D995E6DA1F372ED100EBEE44 /* DGCYYTextParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGCYYTextParser.m; sourceTree = "<group>"; };
+		D995E6DB1F372ED100EBEE44 /* DGCYYTextRubyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGCYYTextRubyAnnotation.h; sourceTree = "<group>"; };
+		D995E6DC1F372ED100EBEE44 /* DGCYYTextRubyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGCYYTextRubyAnnotation.m; sourceTree = "<group>"; };
+		D995E6DD1F372ED100EBEE44 /* DGCYYTextRunDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGCYYTextRunDelegate.h; sourceTree = "<group>"; };
+		D995E6DE1F372ED100EBEE44 /* DGCYYTextRunDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGCYYTextRunDelegate.m; sourceTree = "<group>"; };
+		D995E6E01F372ED100EBEE44 /* NSAttributedString+DGCYYText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+DGCYYText.h"; sourceTree = "<group>"; };
+		D995E6E11F372ED100EBEE44 /* NSAttributedString+DGCYYText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+DGCYYText.m"; sourceTree = "<group>"; };
+		D995E6E21F372ED100EBEE44 /* NSParagraphStyle+DGCYYText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSParagraphStyle+DGCYYText.h"; sourceTree = "<group>"; };
+		D995E6E31F372ED100EBEE44 /* NSParagraphStyle+DGCYYText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSParagraphStyle+DGCYYText.m"; sourceTree = "<group>"; };
+		D995E6E41F372ED100EBEE44 /* UIPasteboard+DGCYYText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPasteboard+DGCYYText.h"; sourceTree = "<group>"; };
+		D995E6E51F372ED100EBEE44 /* UIPasteboard+DGCYYText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPasteboard+DGCYYText.m"; sourceTree = "<group>"; };
+		D995E6E61F372ED100EBEE44 /* UIView+DGCYYText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DGCYYText.h"; sourceTree = "<group>"; };
+		D995E6E71F372ED100EBEE44 /* UIView+DGCYYText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DGCYYText.m"; sourceTree = "<group>"; };
+		D995E6E81F372ED100EBEE44 /* DGCYYTextAsyncLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGCYYTextAsyncLayer.h; sourceTree = "<group>"; };
+		D995E6E91F372ED100EBEE44 /* DGCYYTextAsyncLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGCYYTextAsyncLayer.m; sourceTree = "<group>"; };
+		D995E6EA1F372ED100EBEE44 /* DGCYYTextTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGCYYTextTransaction.h; sourceTree = "<group>"; };
+		D995E6EB1F372ED100EBEE44 /* DGCYYTextTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGCYYTextTransaction.m; sourceTree = "<group>"; };
+		D995E6EC1F372ED100EBEE44 /* DGCYYTextUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGCYYTextUtilities.h; sourceTree = "<group>"; };
+		D995E6ED1F372ED100EBEE44 /* DGCYYTextUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGCYYTextUtilities.m; sourceTree = "<group>"; };
+		D995E6EE1F372ED100EBEE44 /* DGCYYTextWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGCYYTextWeakProxy.h; sourceTree = "<group>"; };
+		D995E6EF1F372ED100EBEE44 /* DGCYYTextWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGCYYTextWeakProxy.m; sourceTree = "<group>"; };
+		D995E6F01F372ED100EBEE44 /* DGCYYLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGCYYLabel.h; sourceTree = "<group>"; };
+		D995E6F11F372ED100EBEE44 /* DGCYYLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGCYYLabel.m; sourceTree = "<group>"; };
+		D995E6F21F372ED100EBEE44 /* DGCYYText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGCYYText.h; sourceTree = "<group>"; };
+		D995E6F31F372ED100EBEE44 /* DGCYYTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGCYYTextView.h; sourceTree = "<group>"; };
+		D995E6F41F372ED100EBEE44 /* DGCYYTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGCYYTextView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D918BFD21F372E3000106E14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D995E6BA1F372EC800EBEE44 /* MobileCoreServices.framework in Frameworks */,
+				D995E6BB1F372EC800EBEE44 /* Accelerate.framework in Frameworks */,
+				D995E6BC1F372EC800EBEE44 /* CoreText.framework in Frameworks */,
+				D995E6BD1F372EC800EBEE44 /* QuartzCore.framework in Frameworks */,
+				D995E6BE1F372EC800EBEE44 /* UIKit.framework in Frameworks */,
+				D995E6BF1F372EC800EBEE44 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D918BFCC1F372E3000106E14 = {
+			isa = PBXGroup;
+			children = (
+				D995E6C01F372ED100EBEE44 /* DGCYYText */,
+				D918BFE11F372E6800106E14 /* Frameworks */,
+				D918BFD71F372E3000106E14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D918BFD71F372E3000106E14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D918BFD61F372E3000106E14 /* DGCYYText.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D918BFE11F372E6800106E14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D918BFDA1F372E3000106E14 /* Info.plist */,
+				D918BFE71F372EA000106E14 /* MobileCoreServices.framework */,
+				D918BFE61F372E9B00106E14 /* Accelerate.framework */,
+				D918BFE51F372E9800106E14 /* CoreText.framework */,
+				D918BFE41F372E7A00106E14 /* QuartzCore.framework */,
+				D918BFE31F372E7600106E14 /* UIKit.framework */,
+				D918BFE21F372E6800106E14 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D995E6C01F372ED100EBEE44 /* DGCYYText */ = {
+			isa = PBXGroup;
+			children = (
+				D995E6F21F372ED100EBEE44 /* DGCYYText.h */,
+				D995E6F01F372ED100EBEE44 /* DGCYYLabel.h */,
+				D995E6F11F372ED100EBEE44 /* DGCYYLabel.m */,
+				D995E6F31F372ED100EBEE44 /* DGCYYTextView.h */,
+				D995E6F41F372ED100EBEE44 /* DGCYYTextView.m */,
+				D995E6D41F372ED100EBEE44 /* String */,
+				D995E6C11F372ED100EBEE44 /* Component */,
+				D995E6DF1F372ED100EBEE44 /* Utility */,
+			);
+			name = DGCYYText;
+			path = ../DGCYYText;
+			sourceTree = "<group>";
+		};
+		D995E6C11F372ED100EBEE44 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				D995E6CC1F372ED100EBEE44 /* DGCYYTextLayout.h */,
+				D995E6CD1F372ED100EBEE44 /* DGCYYTextLayout.m */,
+				D995E6CE1F372ED100EBEE44 /* DGCYYTextLine.h */,
+				D995E6CF1F372ED100EBEE44 /* DGCYYTextLine.m */,
+				D995E6C81F372ED100EBEE44 /* DGCYYTextInput.h */,
+				D995E6C91F372ED100EBEE44 /* DGCYYTextInput.m */,
+				D995E6C21F372ED100EBEE44 /* DGCYYTextContainerView.h */,
+				D995E6C31F372ED100EBEE44 /* DGCYYTextContainerView.m */,
+				D995E6C61F372ED100EBEE44 /* DGCYYTextEffectWindow.h */,
+				D995E6C71F372ED100EBEE44 /* DGCYYTextEffectWindow.m */,
+				D995E6C41F372ED100EBEE44 /* DGCYYTextDebugOption.h */,
+				D995E6C51F372ED100EBEE44 /* DGCYYTextDebugOption.m */,
+				D995E6D01F372ED100EBEE44 /* DGCYYTextMagnifier.h */,
+				D995E6D11F372ED100EBEE44 /* DGCYYTextMagnifier.m */,
+				D995E6D21F372ED100EBEE44 /* DGCYYTextSelectionView.h */,
+				D995E6D31F372ED100EBEE44 /* DGCYYTextSelectionView.m */,
+				D995E6CA1F372ED100EBEE44 /* DGCYYTextKeyboardManager.h */,
+				D995E6CB1F372ED100EBEE44 /* DGCYYTextKeyboardManager.m */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		D995E6D41F372ED100EBEE44 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				D995E6D71F372ED100EBEE44 /* DGCYYTextAttribute.h */,
+				D995E6D81F372ED100EBEE44 /* DGCYYTextAttribute.m */,
+				D995E6D91F372ED100EBEE44 /* DGCYYTextParser.h */,
+				D995E6DA1F372ED100EBEE44 /* DGCYYTextParser.m */,
+				D995E6D51F372ED100EBEE44 /* DGCYYTextArchiver.h */,
+				D995E6D61F372ED100EBEE44 /* DGCYYTextArchiver.m */,
+				D995E6DB1F372ED100EBEE44 /* DGCYYTextRubyAnnotation.h */,
+				D995E6DC1F372ED100EBEE44 /* DGCYYTextRubyAnnotation.m */,
+				D995E6DD1F372ED100EBEE44 /* DGCYYTextRunDelegate.h */,
+				D995E6DE1F372ED100EBEE44 /* DGCYYTextRunDelegate.m */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		D995E6DF1F372ED100EBEE44 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				D995E6E01F372ED100EBEE44 /* NSAttributedString+DGCYYText.h */,
+				D995E6E11F372ED100EBEE44 /* NSAttributedString+DGCYYText.m */,
+				D995E6E21F372ED100EBEE44 /* NSParagraphStyle+DGCYYText.h */,
+				D995E6E31F372ED100EBEE44 /* NSParagraphStyle+DGCYYText.m */,
+				D995E6E41F372ED100EBEE44 /* UIPasteboard+DGCYYText.h */,
+				D995E6E51F372ED100EBEE44 /* UIPasteboard+DGCYYText.m */,
+				D995E6E61F372ED100EBEE44 /* UIView+DGCYYText.h */,
+				D995E6E71F372ED100EBEE44 /* UIView+DGCYYText.m */,
+				D995E6E81F372ED100EBEE44 /* DGCYYTextAsyncLayer.h */,
+				D995E6E91F372ED100EBEE44 /* DGCYYTextAsyncLayer.m */,
+				D995E6EA1F372ED100EBEE44 /* DGCYYTextTransaction.h */,
+				D995E6EB1F372ED100EBEE44 /* DGCYYTextTransaction.m */,
+				D995E6EC1F372ED100EBEE44 /* DGCYYTextUtilities.h */,
+				D995E6ED1F372ED100EBEE44 /* DGCYYTextUtilities.m */,
+				D995E6EE1F372ED100EBEE44 /* DGCYYTextWeakProxy.h */,
+				D995E6EF1F372ED100EBEE44 /* DGCYYTextWeakProxy.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D918BFD31F372E3000106E14 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D995E70B1F372ED100EBEE44 /* DGCYYTextParser.h in Headers */,
+				D995E7111F372ED100EBEE44 /* NSAttributedString+DGCYYText.h in Headers */,
+				D995E71F1F372ED100EBEE44 /* DGCYYTextWeakProxy.h in Headers */,
+				D995E7031F372ED100EBEE44 /* DGCYYTextMagnifier.h in Headers */,
+				D995E70D1F372ED100EBEE44 /* DGCYYTextRubyAnnotation.h in Headers */,
+				D995E7231F372ED100EBEE44 /* DGCYYText.h in Headers */,
+				D995E7171F372ED100EBEE44 /* UIView+DGCYYText.h in Headers */,
+				D995E7051F372ED100EBEE44 /* DGCYYTextSelectionView.h in Headers */,
+				D995E6F71F372ED100EBEE44 /* DGCYYTextDebugOption.h in Headers */,
+				D995E7191F372ED100EBEE44 /* DGCYYTextAsyncLayer.h in Headers */,
+				D995E7091F372ED100EBEE44 /* DGCYYTextAttribute.h in Headers */,
+				D995E71D1F372ED100EBEE44 /* DGCYYTextUtilities.h in Headers */,
+				D995E7241F372ED100EBEE44 /* DGCYYTextView.h in Headers */,
+				D995E70F1F372ED100EBEE44 /* DGCYYTextRunDelegate.h in Headers */,
+				D995E6F91F372ED100EBEE44 /* DGCYYTextEffectWindow.h in Headers */,
+				D995E7151F372ED100EBEE44 /* UIPasteboard+DGCYYText.h in Headers */,
+				D995E7131F372ED100EBEE44 /* NSParagraphStyle+DGCYYText.h in Headers */,
+				D995E6FB1F372ED100EBEE44 /* DGCYYTextInput.h in Headers */,
+				D995E7211F372ED100EBEE44 /* DGCYYLabel.h in Headers */,
+				D995E71B1F372ED100EBEE44 /* DGCYYTextTransaction.h in Headers */,
+				D995E6FD1F372ED100EBEE44 /* DGCYYTextKeyboardManager.h in Headers */,
+				D995E7011F372ED100EBEE44 /* DGCYYTextLine.h in Headers */,
+				D995E6F51F372ED100EBEE44 /* DGCYYTextContainerView.h in Headers */,
+				D995E6FF1F372ED100EBEE44 /* DGCYYTextLayout.h in Headers */,
+				D995E7071F372ED100EBEE44 /* DGCYYTextArchiver.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D918BFD51F372E3000106E14 /* DGCYYText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D918BFDE1F372E3000106E14 /* Build configuration list for PBXNativeTarget "DGCYYText" */;
+			buildPhases = (
+				D918BFD11F372E3000106E14 /* Sources */,
+				D918BFD21F372E3000106E14 /* Frameworks */,
+				D918BFD31F372E3000106E14 /* Headers */,
+				D918BFD41F372E3000106E14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DGCYYText;
+			productName = DGCYYText;
+			productReference = D918BFD61F372E3000106E14 /* DGCYYText.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D918BFCD1F372E3000106E14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = ibireme;
+				TargetAttributes = {
+					D918BFD51F372E3000106E14 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+				};
+			};
+			buildConfigurationList = D918BFD01F372E3000106E14 /* Build configuration list for PBXProject "DGCYYText" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D918BFCC1F372E3000106E14;
+			productRefGroup = D918BFD71F372E3000106E14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D918BFD51F372E3000106E14 /* DGCYYText */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D918BFD41F372E3000106E14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D918BFD11F372E3000106E14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D995E7021F372ED100EBEE44 /* DGCYYTextLine.m in Sources */,
+				D995E7251F372ED100EBEE44 /* DGCYYTextView.m in Sources */,
+				D995E7121F372ED100EBEE44 /* NSAttributedString+DGCYYText.m in Sources */,
+				D995E70C1F372ED100EBEE44 /* DGCYYTextParser.m in Sources */,
+				D995E7061F372ED100EBEE44 /* DGCYYTextSelectionView.m in Sources */,
+				D995E7161F372ED100EBEE44 /* UIPasteboard+DGCYYText.m in Sources */,
+				D995E7221F372ED100EBEE44 /* DGCYYLabel.m in Sources */,
+				D995E7001F372ED100EBEE44 /* DGCYYTextLayout.m in Sources */,
+				D995E71E1F372ED100EBEE44 /* DGCYYTextUtilities.m in Sources */,
+				D995E6F61F372ED100EBEE44 /* DGCYYTextContainerView.m in Sources */,
+				D995E70E1F372ED100EBEE44 /* DGCYYTextRubyAnnotation.m in Sources */,
+				D995E7201F372ED100EBEE44 /* DGCYYTextWeakProxy.m in Sources */,
+				D995E7081F372ED100EBEE44 /* DGCYYTextArchiver.m in Sources */,
+				D995E7101F372ED100EBEE44 /* DGCYYTextRunDelegate.m in Sources */,
+				D995E6F81F372ED100EBEE44 /* DGCYYTextDebugOption.m in Sources */,
+				D995E6FA1F372ED100EBEE44 /* DGCYYTextEffectWindow.m in Sources */,
+				D995E7041F372ED100EBEE44 /* DGCYYTextMagnifier.m in Sources */,
+				D995E7181F372ED100EBEE44 /* UIView+DGCYYText.m in Sources */,
+				D995E6FE1F372ED100EBEE44 /* DGCYYTextKeyboardManager.m in Sources */,
+				D995E6FC1F372ED100EBEE44 /* DGCYYTextInput.m in Sources */,
+				D995E7141F372ED100EBEE44 /* NSParagraphStyle+DGCYYText.m in Sources */,
+				D995E71A1F372ED100EBEE44 /* DGCYYTextAsyncLayer.m in Sources */,
+				D995E70A1F372ED100EBEE44 /* DGCYYTextAttribute.m in Sources */,
+				D995E71C1F372ED100EBEE44 /* DGCYYTextTransaction.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D918BFDC1F372E3000106E14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D918BFDD1F372E3000106E14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D918BFDF1F372E3000106E14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibireme.DGCYYText;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D918BFE01F372E3000106E14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibireme.DGCYYText;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D918BFD01F372E3000106E14 /* Build configuration list for PBXProject "DGCYYText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D918BFDC1F372E3000106E14 /* Debug */,
+				D918BFDD1F372E3000106E14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D918BFDE1F372E3000106E14 /* Build configuration list for PBXNativeTarget "DGCYYText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D918BFDF1F372E3000106E14 /* Debug */,
+				D918BFE01F372E3000106E14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D918BFCD1F372E3000106E14 /* Project object */;
+}
